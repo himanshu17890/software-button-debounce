@@ -51,18 +51,13 @@ uint8_t button_update(uint8_t raw_state)
     return stable_state;
 }
 
-/*---------------------------------------------------
-    Function: button_get_state()
-    Purpose : Return current stable button state
----------------------------------------------------*/
+
 uint8_t button_get_state(void)
 {
     return stable_state;
 }
 
-/*---------------------------------------------------
-    Main Function
----------------------------------------------------*/
+
 int main(void)
 {
     button_init();
